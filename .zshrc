@@ -136,6 +136,9 @@ alias gsave='git stash push -m'
 alias gpop='git stash pop'
 alias greset='git reset --hard'
 alias ghead='git rev-parse --abbrev-ref HEAD'
+alias gh-origin='f(){ git remote add origin git@github.com:Masfahri2005/$1.git }; f'
+alias gh-test='ssh -T git@github.com'
+alias gh-push-init='git push -u origin main'
 
 # Docker
 alias dps='docker ps'
