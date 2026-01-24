@@ -9,7 +9,7 @@ title = "Alacritty"
 dynamic_title = true
 decorations = "None"
 startup_mode = "SimpleFullscreen"
-opacity = 0.95
+opacity = 0.97
 padding = { x = 20, y = 20 }
 dimensions = { columns = 90, lines = 27 }
 
@@ -57,3 +57,38 @@ bindings = [
   { key = "T", mods = "Control|Shift", action = "SpawnNewInstance" },
   { key = "W", mods = "Control|Shift", action = "Quit" }
 ]
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.primary]
+background = "#0f111a"
+foreground = "#cdd6f4"
+
+[colors.cursor]
+text = "#0f111a"
+cursor = "#89b4fa"
+
+[colors.selection]
+text = "#0f111a"
+background = "#89b4fa"
+
+[colors.normal]
+black   = "#45475a"
+red     = "#f38ba8"
+green   = "#a6e3a1"
+yellow  = "#f9e2af"
+blue    = "#89b4fa"
+magenta = "#f5c2e7"
+cyan    = "#94e2d5"
+white   = "#bac2de"
+
+[colors.bright]
+black   = "#585b70"
+red     = "#f38ba8"
+green   = "#a6e3a1"
+yellow  = "#f9e2af"
+blue    = "#89b4fa"
+magenta = "#f5c2e7"
+cyan    = "#94e2d5"
+white   = "#cdd6f4"
